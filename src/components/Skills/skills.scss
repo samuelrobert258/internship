@@ -1,0 +1,122 @@
+@import "../../global.scss";
+
+
+.skill-section{
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.skill-section-heading{
+    text-align: center;
+    color: #000000;
+    h1{
+        font-size: 50px;
+    }
+}
+
+.skillset{
+    padding: 20px;
+    background-color: lightgray;
+    width: auto;
+    // margin-top: 8px;
+    // margin-bottom: 8px; 
+}
+.skills{
+    display: block;
+    margin-left: 120px;
+    margin-top:  20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skills-content{
+    margin-top: 0px;
+}
+
+div.skills-content li{
+    margin: 20px 0;
+    animation-delay: 300ms;
+}
+
+div.skills-content h3{
+    color: #000000;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: inherit;
+}
+
+.bar{
+    background: white ;
+    display: block;
+    height: 9px;
+    border: 1.5px solid #403f45;
+    border-radius: 3px;
+    overflow: hidden;
+    animation-delay: 900ms;
+}
+
+.bar span{
+    height: 9px;
+    float: left;
+    background: crimson;
+}
+
+.html{
+    width: 90%;
+    animation: html 2s;
+    padding: 10px;
+}
+
+.css{
+    width: 80%;
+    animation: css 2s;
+    padding: 10px;
+}
+
+.javascript{
+    width:70%;
+    animation: js 2s;
+    padding: 10px;
+}
+.react{
+    width:40%;
+    animation: react 2s;
+    padding: 10px;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
